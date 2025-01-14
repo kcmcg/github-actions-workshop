@@ -8,6 +8,6 @@ on:
 jobs:
   build:
     name: PR Verify
-    uses: kcmcg/reusable-workflows/.github/workflows/reusable-workflows.yml@master
+    uses: kcmcg/reusable-workflows/.github/workflows/reusable-workflows.yml
     with:
       dotnet_version: 9.0.x
